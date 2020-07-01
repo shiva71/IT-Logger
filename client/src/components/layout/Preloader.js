@@ -2,8 +2,8 @@ import React from 'react';
 
 const Preloader = () => {
   return (
-    <div className='progress blue lighten-4'>
-      <div className='indeterminate blue'></div>
+    <div className='progress purple darken-4'>
+      <div className='indeterminate purple'></div>
     </div>
   );
 };

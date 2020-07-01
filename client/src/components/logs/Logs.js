@@ -18,7 +18,7 @@ const Logs = ({ log: { logs, loading, searched }, getLogs }) => {
   return (
     <ul className='collection with-header'>
       <li className='collection-header'>
-        <h4 className='center'>System Logs</h4>
+        <h4 className='center purple-text text-darken-4'>System Logs</h4>
       </li>
 
       {!loading && logs.length === 0 ? (

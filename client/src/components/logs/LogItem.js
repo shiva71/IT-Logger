@@ -17,7 +17,9 @@ const LogItem = ({ log, deleteLog, setCurrent }) => {
         <a
           href='#edit-log-modal'
           className={`modal-trigger ${
-            log.attention ? 'red-text' : 'blue-text'
+            log.attention
+              ? 'red-text text-accent-4'
+              : 'purple-text text-darken-4'
           }`}
           onClick={() => setCurrent(log)}
         >
@@ -25,9 +27,9 @@ const LogItem = ({ log, deleteLog, setCurrent }) => {
         </a>
         <br />
         <span className='grey-text'>
-          <span className='black-text'>ID#{log.id}</span>
+          <span className='green-text text-darken-4'>ID#{log.id}</span>
           Last Updated By
-          <span className='black-text'>{log.tech}</span>
+          <span className='orange-text text-darken-2'>{log.tech}</span>
           on <Moment format='MMMM Do YYYY, h:mm:ss a'>{log.date}</Moment>
         </span>
         <a href='#!' className='secondary-content' onClick={onDelete}>

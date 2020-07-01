@@ -32,7 +32,7 @@ const AddLogModal = ({ addLog }) => {
   return (
     <div id='add-log-modal' className='modal' style={modalStyle}>
       <div className='modal-content'>
-        <h4>Enter System Log</h4>
+        <h4 className='purple-text text-darken-4'>Enter System Log</h4>
         <div className='row'>
           <div className='input-field'>
             <input
@@ -83,7 +83,7 @@ const AddLogModal = ({ addLog }) => {
         <a
           href='#!'
           onClick={onSubmit}
-          className='modal-close waves-effect blue waves-green btn'
+          className='modal-close waves-effect purple waves-green btn darken-4'
         >
           Enter
         </a>

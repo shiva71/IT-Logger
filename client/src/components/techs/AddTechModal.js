@@ -27,7 +27,7 @@ const AddTechModal = ({ addTech }) => {
   return (
     <div id='add-tech-modal' className='modal'>
       <div className='modal-content'>
-        <h4>New Technician</h4>
+        <h4 className='purple-text text-darken-4'>New Technician</h4>
         <div className='row'>
           <div className='input-field'>
             <input
@@ -60,7 +60,7 @@ const AddTechModal = ({ addTech }) => {
         <a
           href='#!'
           onClick={onSubmit}
-          className='modal-close waves-effect blue waves-green btn'
+          className='modal-close waves-effect purple waves-purple btn darken-4'
         >
           Enter
         </a>
