@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { addLog } from '../../actions/logActions';
 import TechSelectOptions from '../techs/TechSelectOptions';
+import '../../App.css';
 
 const AddLogModal = ({ addLog }) => {
   const [message, setMessage] = useState('');
@@ -83,7 +84,7 @@ const AddLogModal = ({ addLog }) => {
         <a
           href='#!'
           onClick={onSubmit}
-          className='modal-close waves-effect purple waves-green btn darken-4'
+          className='modal-close waves-effect purple waves-purple btn darken-4'
         >
           Enter
         </a>
@@ -96,6 +97,7 @@ const modalStyle = {
   width: '75%',
   height: '75%',
 };
+
 AddLogModal.propTypes = {
   addLog: PropTypes.func.isRequired,
 };

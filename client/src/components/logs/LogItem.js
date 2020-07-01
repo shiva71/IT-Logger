@@ -33,7 +33,7 @@ const LogItem = ({ log, deleteLog, setCurrent }) => {
           on <Moment format='MMMM Do YYYY, h:mm:ss a'>{log.date}</Moment>
         </span>
         <a href='#!' className='secondary-content' onClick={onDelete}>
-          <i className='material-icons grey-text'>delete</i>
+          <i className='material-icons purple-text'>delete</i>
         </a>
       </div>
     </li>
