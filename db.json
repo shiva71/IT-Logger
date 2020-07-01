@@ -1,13 +1,6 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Hard Disk changed on System 001",
-      "tech": " SamSmith",
-      "attention": false,
-      "date": "2020-07-01T07:56:35.254Z"
-    },
-    {
       "id": 2,
       "message": "Internet working on system 005",
       "tech": "JohnDoe",
