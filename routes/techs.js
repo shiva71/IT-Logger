@@ -45,7 +45,15 @@ router.post(
       try {
         const data = JSON.parse(jsonString);
         const { techs } = data;
-        const id = data.techs.length + 1;
+        const length = data.techs.length;
+        var id;
+
+        if (length === 0) {
+          id = 1;
+        } else {
+          const idT = techs.map((tech) => tech.id);
+          id = idT[length - 1] + 1;
+        }
         const newTech = {
           id,
           firstName,
