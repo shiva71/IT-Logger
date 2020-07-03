@@ -1,5 +1,5 @@
 # IT-Logger
-> A simple IT Logger app built using mern stack. Here you can perform CRUD operations on Logs, and a API has been developed for the same. Logs are created by technicians. It uses a simple JSON file as database.
+> A simple IT Logger app built using mern stack. Here you can perform CRUD operations on Logs, and a API has been developed for the same. Logs are created by technicians. It uses a simple JSON file as database. Deployed in heroku at https://blooming-wildwood-90768.herokuapp.com/
 
 
 ## Usage
