@@ -8,6 +8,7 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "clientinstall": "npm install --prefix client",
+    "build": "react-scripts build",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
