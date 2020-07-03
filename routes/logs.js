@@ -25,7 +25,7 @@ router.get('/', (req, res) => {
 });
 
 //@route POST api/logs
-//@desc Get Logs
+//@desc Get Add logs
 //@acess Public
 router.post(
   '/',
@@ -45,9 +45,11 @@ router.post(
       try {
         const data = JSON.parse(jsonString);
         const { logs } = data;
-        const id = data.logs.length + 1;
+        const length = data.logs.length;
+        const idT = logs.map((log) => log.id);
+
         const newLog = {
-          id,
+          id: idT[length - 1] + 1,
           message,
           tech,
           attention,

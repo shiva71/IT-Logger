@@ -1,13 +1,6 @@
 {
   "logs": [
     {
-      "id": 2,
-      "message": "Internet working on system 005",
-      "tech": "JohnDoe",
-      "attention": true,
-      "date": "2020-07-01T07:57:12.624Z"
-    },
-    {
       "id": 3,
       "message": "Mouse failure on System 025",
       "tech": "SaraWilson",
@@ -27,6 +20,20 @@
       "tech": " JohnWilson",
       "attention": false,
       "date": "2020-07-01T08:00:56.665Z"
+    },
+    {
+      "id": 6,
+      "message": "Internet Not Working at 001",
+      "tech": "Monty",
+      "attention": false,
+      "date": "2020-07-03T15:17:58.692Z"
+    },
+    {
+      "id": 7,
+      "message": "Internet Not Working at 001",
+      "tech": "Monty",
+      "attention": false,
+      "date": "2020-07-03T15:18:37.733Z"
     }
   ],
   "techs": [
@@ -54,6 +61,26 @@
       "id": 5,
       "firstName": " John",
       "lastName": "Wilson"
+    },
+    {
+      "id": 6,
+      "firstName": "hero",
+      "lastName": "Shandilya"
+    },
+    {
+      "id": 7,
+      "firstName": "hero",
+      "lastName": "Shandilya"
+    },
+    {
+      "id": 8,
+      "firstName": "hero",
+      "lastName": "Shandilya"
+    },
+    {
+      "id": 9,
+      "firstName": "hero",
+      "lastName": "Shandilya"
     }
   ]
 }
