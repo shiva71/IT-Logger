@@ -46,10 +46,17 @@ router.post(
         const data = JSON.parse(jsonString);
         const { logs } = data;
         const length = data.logs.length;
-        const idT = logs.map((log) => log.id);
+        var id;
+
+        if (length === 0) {
+          id = 1;
+        } else {
+          const idT = logs.map((log) => log.id);
+          id = idT[length - 1] + 1;
+        }
 
         const newLog = {
-          id: idT[length - 1] + 1,
+          id: id,
           message,
           tech,
           attention,

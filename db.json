@@ -1,39 +1,18 @@
 {
   "logs": [
     {
-      "id": 3,
-      "message": "Mouse failure on System 025",
-      "tech": "SaraWilson",
-      "attention": true,
-      "date": "2020-07-01T07:58:47.383Z"
-    },
-    {
-      "id": 4,
-      "message": "Network card damaged on system 010",
-      "tech": "ShivaShandilya",
-      "attention": true,
-      "date": "2020-07-01T08:00:36.273Z"
-    },
-    {
-      "id": 5,
-      "message": "Hard disk changed at system 026",
-      "tech": " JohnWilson",
-      "attention": false,
-      "date": "2020-07-01T08:00:56.665Z"
-    },
-    {
-      "id": 6,
+      "id": 1,
       "message": "Internet Not Working at 001",
       "tech": "Monty",
       "attention": false,
-      "date": "2020-07-03T15:17:58.692Z"
+      "date": "2020-07-03T17:35:25.815Z"
     },
     {
-      "id": 7,
-      "message": "Internet Not Working at 001",
-      "tech": "Monty",
+      "id": 2,
+      "message": "Test 2",
+      "tech": " SamSmith",
       "attention": false,
-      "date": "2020-07-03T15:18:37.733Z"
+      "date": "2020-07-03T17:38:39.041Z"
     }
   ],
   "techs": [
@@ -61,26 +40,6 @@
       "id": 5,
       "firstName": " John",
       "lastName": "Wilson"
-    },
-    {
-      "id": 6,
-      "firstName": "hero",
-      "lastName": "Shandilya"
-    },
-    {
-      "id": 7,
-      "firstName": "hero",
-      "lastName": "Shandilya"
-    },
-    {
-      "id": 8,
-      "firstName": "hero",
-      "lastName": "Shandilya"
-    },
-    {
-      "id": 9,
-      "firstName": "hero",
-      "lastName": "Shandilya"
     }
   ]
 }
