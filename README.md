@@ -1,5 +1,5 @@
 # IT-Logger
-> A simple IT Logger app built using mern stack. Here you can perform CRUD operations on Logs, and a API has been developed for the same. Logs are created by technicians. It uses a simple JSON file as database. Deployed in heroku at https://itlogger1.herokuapp.com/
+> A simple IT Logger app built using EXPRESS, Node Js, React. Here you can perform CRUD operations on Logs, and a API has been developed for the same. Logs are created by technicians. It uses a simple JSON file as database. Deployed in heroku at https://itlogger1.herokuapp.com/
 
 
 ## Usage
